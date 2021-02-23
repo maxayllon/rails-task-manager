@@ -1,3 +1,27 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$police: Roboto;
+
+.title {
+  text-align: center;
+  font-family: $police;
+}
+
+.container {
+  display: flex;
+  background-color: #d1cccc;
+  padding: 15px;
+  margin: 0px 100px;
+}
+
+ul {
+  padding: 0;
+}
+
+.link {
+  text-align: center;
+}
